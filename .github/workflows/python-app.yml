@@ -26,5 +26,5 @@ jobs:
    
     - name: Python application
       run: |
-        python gfg.py
-        python calculator.py
+        pytest gfg.py
+        pytest calculator.py
